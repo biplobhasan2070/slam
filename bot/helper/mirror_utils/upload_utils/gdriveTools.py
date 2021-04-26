@@ -478,9 +478,9 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             Telegraph(access_token=TELEGRAPH_TOKEN).edit_page(path = self.path[prev_page],
-                                 title = 'Torrent To Gdrive',
-                                 author_name='TORRENT TO GDRIVE',
-                                 author_url='https://t.me/torrent_to_gdrive',
+                                 title = 'Torrent 2 Gdrive',
+                                 author_name='TORRENT 2 GDRIVE',
+                                 author_url='https://t.me/torrent_2_gdrive',
                                  html_content=content)
         return
 
